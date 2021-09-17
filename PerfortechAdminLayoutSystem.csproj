@@ -249,6 +249,13 @@
     <Content Include="Views\Request\HelpCenter.cshtml" />
     <Content Include="Views\BlogPost\Index.cshtml" />
     <Content Include="Views\Integration\Index.cshtml" />
+    <Content Include="Views\Product\Supplier.cshtml" />
+    <Content Include="Views\Product\Categories.cshtml" />
+    <Content Include="Views\Product\Brands.cshtml" />
+    <Content Include="Views\Product\BatchOperations.cshtml" />
+    <Content Include="Views\Product\BatchPriceOperations.cshtml" />
+    <Content Include="Views\Product\BatchStockOperations.cshtml" />
+    <Content Include="Views\Product\ExcelOperations.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
