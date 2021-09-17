@@ -152,3 +152,28 @@ var options = {
   var chart = new ApexCharts(document.querySelector("#chart3"), options);
   chart.render();
 
+
+
+
+
+
+
+
+$(document).ready(function () {
+    var Link = window.location.pathname.split('/');
+    var newLink = "";
+
+    $.each(Link, function (key, value) {
+        newLink = newLink + "/" + value;
+        if (key != 0 && key < 3) {
+            $('<li class="breadcrumb-item"><a href="' + newLink.replace("//", "/") + '">' + value + '</a></li>').appendTo("ol.breadcrumb");
+        }
+        if (key == 2) {
+            document.title = value;
+        }
+    });
+});
+
+
+
+

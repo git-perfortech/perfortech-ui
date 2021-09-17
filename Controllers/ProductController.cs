@@ -9,6 +9,11 @@ namespace PerfortechAdminLayoutSystem.Controllers
     public class ProductController : Controller
     {
         // GET: Product
+        public ActionResult Index()
+        {
+            return View();
+        }
+
         public ActionResult List()
         {
             return View();
